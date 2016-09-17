@@ -309,7 +309,9 @@
     <!-- WOW.js -->
     <script src="js/wow.js"></script>
     <script>
-        new WOW().init();
+        jQuery(document).ready(function($) {
+            new WOW().init();
+        });
     </script>
 
 </body>
