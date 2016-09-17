@@ -6,10 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Catch public transport in Auckland? nappr is a lightweight mobile app that ensures you never miss your stop.">
+    <meta name="author" content="Tryclops">
 
-    <title>tryclops</title>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <title>nappr</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,12 +25,15 @@
     <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
     <link rel="stylesheet" href="vendor/device-mockups/device-mockups.min.css">
 
-    <!-- Theme CSS -->
-    <link href="css/new-age.min.css" rel="stylesheet">
+    <!-- Main CSS -->
+    <link href="css/main.min.css" rel="stylesheet">
     
     <!-- Unslider CSS -->
     <link rel="stylesheet" href="css/unslider.css">
     <link rel="stylesheet" href="css/unslider-dots.css">
+    
+    <!-- Animate CSS-->
+    <link rel="stylesheet" href="css/animate.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -49,7 +53,7 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">tryclops</a>
+                <a class="navbar-brand page-scroll" href="#page-top">nappr</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -62,7 +66,7 @@
                         <a class="page-scroll" href="#features">values</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#cta">the team</a>
+                        <a class="page-scroll" href="#team">the team</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">contact us</a>
@@ -86,7 +90,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-5">
+                <div class="col-sm-5 wow animated slideInRight">
                     <div class="device-container">
                         <div class="device-mockup galaxy_s3 portrait white">
                             <div class="device">
@@ -105,11 +109,11 @@
         </div>
     </header>
 
-    <section id="download" class="download bg-primary text-center">
+    <section class="download bg-primary text-center">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4 col-sm-offset-1">
-                    <img src="img/hires-icon.png" class="img-responsive center-block" alt="">
+                <div id="download" class="col-sm-4 col-sm-offset-1">
+                    <img src="img/hires-icon.png" class="img-responsive center-block wow animated fadeInLeft" alt="">
                 </div>
                 <br>
                 <div class="col-sm-6">
@@ -127,7 +131,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <div class="section-heading">
+                    <div class="section-heading wow animated fadeInUp">
                         <h2>what makes nappr special?</h2>
                         <hr>
                     </div>
@@ -188,9 +192,11 @@
     </section>
 
     <section id="cta" class="cta">
-        <div class="cta-content">
+        <div id="team" class="cta-content">
             <div class="container">
-                <h1><b>tryclops</b><br>the team behind nappr</h1>
+                <div class="wow animated fadeInUp">
+                    <h1><b>Tryclops</b><br>the team behind nappr</h1>
+                </div>
                 <br>
                 <div class="col-md-8">
                     <div class="container-fluid">
@@ -198,15 +204,15 @@
                             <div class="col-md-6">
                                 <div class="feature-item">
                                     <img src="img/laurence.png" class="img-responsive img-circle" alt="">
-                                    <h3><a href="https://nz.linkedin.com/in/laurence-armstrong-234579124">Laurence Armstrong</a></h3>
-                                    <p class="text-muted">backend developer</p>
+                                    <h3><a href="https://nz.linkedin.com/in/laurence-armstrong-234579124" target="_blank">Laurence Armstrong</a></h3>
+                                    <p class="text-muted">mobile backend developer</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="feature-item">
                                     <img src="img/patricia.png" class="img-responsive img-circle" alt="">
-                                    <h3><a href="https://nz.linkedin.com/in/patriciadanielletan">Patricia Danielle Tan</a></h3>
-                                    <p class="text-muted">ux/ui designer, public relations</p>
+                                    <h3><a href="https://nz.linkedin.com/in/patriciadanielletan" target="_blank">Patricia Danielle Tan</a></h3>
+                                    <p class="text-muted">ux/ui designer, web developer</p>
                                 </div>
                             </div>
                         </div>
@@ -214,15 +220,15 @@
                             <div class="col-md-6">
                                 <div class="feature-item">
                                     <img src="img/peter.png" class="img-responsive img-circle" alt="">
-                                    <h3><a href="https://nz.linkedin.com/in/peter-lee-46b73511b">Peter Lee</a></h3>
-                                    <p class="text-muted">frontend developer</p>
+                                    <h3><a href="https://nz.linkedin.com/in/peter-lee-46b73511b" target="_blank">Peter Lee</a></h3>
+                                    <p class="text-muted">mobile frontend developer</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="feature-item">
                                     <img src="img/josh.png" class="img-responsive img-circle" alt="">
-                                    <h3><a href="https://nz.linkedin.com/in/joshua-tanner-a1748b125">Joshua Tanner</a></h3>
-                                    <p class="text-muted">backend developer</p>
+                                    <h3><a href="https://nz.linkedin.com/in/joshua-tanner-a1748b125" target="_blank">Joshua Tanner</a></h3>
+                                    <p class="text-muted">mobile backend developer</p>
                                 </div>
                             </div>
                         </div>
@@ -234,10 +240,10 @@
     </section>
 
     <section id="contact" class="contact bg-primary">
-        <div class="container">
+        <div class="container wow animated fadeInUp">
             <h2>we <i class="fa fa-heart"></i> your feedback!</h2>
             <p>get in touch with us:<br><b>contact.tryclops@gmail.com</b></p>
-            <p>tryclops | Auckland, New Zealand</p>
+            <p>Tryclops | Auckland, New Zealand</p>
             
             <!--
             <ul class="list-inline list-social">
@@ -258,7 +264,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2016 tryclops. all rights reserved.</p>
+            <p>&copy; 2016 Tryclops. all rights reserved.</p>
             <!--
             <ul class="list-inline">
                 <li>
@@ -284,13 +290,13 @@
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-    <!-- Theme JavaScript -->
-    <script src="js/new-age.min.js"></script>
+    <!-- Main JavaScript -->
+    <script src="js/main.min.js"></script>
         
     <!-- Unslider -->
     <script src="js/unslider.js"></script>
-    <script src="//stephband.info/jquery.event.move/js/jquery.event.move.js"></script>
-    <script src="//stephband.info/jquery.event.swipe/js/jquery.event.swipe.js"></script>
+    <script src="//stephen.band/jquery.event.move/js/jquery.event.move.js"></script>
+    <script src="//stephen.band/jquery.event.swipe/js/jquery.event.swipe.js"></script>
     <script>
 		jQuery(document).ready(function($) {
 			$('.app-slider').unslider({
@@ -300,6 +306,14 @@
             });
 		});
 	</script>
+        
+    <!-- WOW.js -->
+    <script src="js/wow.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            new WOW().init();
+        });
+    </script>
 
 </body>
 
